@@ -16,13 +16,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- <div id="root"> -->
+        <div id="root">
             <div class="container-central">
                 <div class="col-left">
+
                     <div class="slot-user">
-                        <div>
-                            <img src="./img/avatar_io.jpg" alt="">
-                            <p>Nome utente</p>
+                        <div class="user">
+                            <div>
+                                <img src="./img/avatar_io.jpg" alt="">
+                            </div>
+                            <div>
+                                <span>Nome utente</span>
+                            </div>
                         </div>
                         <div class="icons">
                             <i class="fas fa-circle-notch"></i>
@@ -30,18 +35,53 @@
                             <i class="fas fa-ellipsis-v"></i>
                         </div>
                     </div>
+
                     <div class="slot-notifications">
+                        <div>
+                            <i class="fas fa-bell-slash"></i>
+                        </div>
+                        <div>
+                            <p>Ricevi notifiche di nuovi messaggi</p>
+                            <p>Attiva notifiche desktop</p>
+                        </div>
 
                     </div>
+
                     <div class="slot-search-user">
-
+                        <input type="text" placeholder="Cerca o inizia una nuova chat" >
                     </div>
+
                     <div class="slot-users">
+                        <div class="single-user">
+                            <div>
+                                <img src="./img/avatar_1.jpg" alt="">
+                            </div>
+                            <div class="name-user">Michele</div>
+                        </div>
+                        <div class="single-user">
+                            <div>
+                                <img src="./img/avatar_2.jpg" alt="">
+                            </div>
+                            <div class="name-user">Fabio</div>
+                        </div>
+                        <div class="single-user">
+                            <div>
+                                <img src="./img/avatar_3.jpg" alt="">
+                            </div>
+                            <div class="name-user">Samuele</div>
+                        </div>
+                        <div class="single-user">
+                            <div>
+                                <img src="./img/avatar_4.jpg" alt="">
+                            </div>
+                            <div class="name-user">Luisa</div>
+                        </div>
 
                     </div>
                 </div>
                 <div class="col-right">
                     <div class="slot-actual-user">
+                        
 
                     </div>
                     <div class="slot-chat">
@@ -54,7 +94,7 @@
 
 
             </div>
-        <!-- </div> -->
+        </div>
 
         <!-- JS -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>

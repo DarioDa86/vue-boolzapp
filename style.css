@@ -15,6 +15,7 @@ body {
     align-items: center;
 }
 
+
 .container-central {
     height: 95vh;
     width: 1500px;
@@ -22,8 +23,19 @@ body {
     margin: auto;
 }
 
-.slot-user {
-    width: calc(100% - 65%);
+.col-left {
+    width: 25%;
+    border: 1px solid black;
+}
+
+.col-rigth {
+    width: 65%;
+    border: 1px solid black;
+
+}
+
+
+.slot-user, .slot-actual-user {
     background-color: #eaeaea;
     display: flex;
     justify-content: space-between;
@@ -36,7 +48,7 @@ body {
     border-radius: 50%;
 }
 
-.slot-user p {
+.slot-user span {
     font-weight: 600;
     display: inline-block;
 }
@@ -50,4 +62,55 @@ body {
 
 .icons i {
     margin: 5px;
+}
+
+.user {
+    display: flex;
+    align-items: center ;
+}
+
+.slot-notifications {
+    background-color: #8edafc;
+    display: flex;
+    align-items: center;
+}
+
+.slot-notifications .fa-bell-slash {
+    color: #8edafc;
+    background-color: #fff;
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 15px 5px 15px 15px;
+    padding: 10px 9px;
+}
+
+.slot-search-user {
+    background-color: #fafafa;
+}
+
+.slot-search-user input{
+    width: calc(100% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #e9ebeb;
+}
+
+.slot-search-user .fa-search{
+    
+}
+
+.single-user {
+    display: flex;
+    padding: 10px 10px 8px;
+    border-bottom: 1px solid #e9ebeb;
+}
+
+.single-user img {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.name-user {
+    font-weight: 600;
 }
