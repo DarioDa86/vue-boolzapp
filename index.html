@@ -16,8 +16,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="root">
-            <div class="container-central">
+        <div id="root" class="container-central">
                 <div class="col-left">
 
                     <div class="slot-user">
@@ -26,7 +25,7 @@
                                 <img src="./img/avatar_io.jpg" alt="">
                             </div>
                             <div>
-                                <span>Nome utente</span>
+                                <span class="text">Nome utente</span>
                             </div>
                         </div>
                         <div class="icons">
@@ -41,59 +40,79 @@
                             <i class="fas fa-bell-slash"></i>
                         </div>
                         <div>
-                            <p>Ricevi notifiche di nuovi messaggi</p>
-                            <p>Attiva notifiche desktop</p>
+                            <p class="text">Ricevi notifiche di nuovi messaggi</p>
+                            <p class="text-not-desk">Attiva notifiche desktop</p>
                         </div>
 
                     </div>
 
                     <div class="slot-search-user">
-                        <input type="text" placeholder="Cerca o inizia una nuova chat" >
+                        <div class="lens-btn">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="search-user">
+                            <input type="text" placeholder="Cerca o inizia una nuova chat" >
+                        </div>
                     </div>
 
-                    <div class="slot-users">
+                    <ul class="slot-users">
                         <div class="single-user">
                             <div>
                                 <img src="./img/avatar_1.jpg" alt="">
                             </div>
-                            <div class="name-user">Michele</div>
+                            <div class="name-user text">Michele</div>
                         </div>
                         <div class="single-user">
                             <div>
                                 <img src="./img/avatar_2.jpg" alt="">
                             </div>
-                            <div class="name-user">Fabio</div>
+                            <div class="name-user text">Fabio</div>
                         </div>
                         <div class="single-user">
                             <div>
                                 <img src="./img/avatar_3.jpg" alt="">
                             </div>
-                            <div class="name-user">Samuele</div>
+                            <div class="name-user text">Samuele</div>
                         </div>
                         <div class="single-user">
                             <div>
                                 <img src="./img/avatar_4.jpg" alt="">
                             </div>
-                            <div class="name-user">Luisa</div>
+                            <div class="name-user text">Luisa</div>
+                        </div>
+                    </ul>
+                </div>
+
+                <!-- Col Rigth -->
+                <div class="col-right">
+                    <div class="slot-actual-user">
+                        <div class="actual-user ">
+                            <div>
+                                <img src="./img/avatar_1.jpg" alt="">
+                            </div>
+                            <div>
+                                <span class="text">Michele</span>
+                            </div>
+                        </div>
+                        
+                        <div class="icons">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-paperclip"></i>
+                            <i class="fas fa-ellipsis-v"></i>
                         </div>
 
                     </div>
-                </div>
-                <div class="col-right">
-                    <div class="slot-actual-user">
-                        
 
-                    </div>
                     <div class="slot-chat">
-
+                      
                     </div>
                     <div class="slot-text">
 
                     </div>
                 </div>
+                <!-- /Col Rigth -->
 
 
-            </div>
         </div>
 
         <!-- JS -->
